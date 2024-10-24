@@ -1,0 +1,146 @@
+[
+    {
+        "nombre": "Al Parecer Todo Ha Sido una Trampa",
+        "artista": "Airbag",
+        "id": 123,
+        "portada": "https://i.scdn.co/image/ab67616d0000b273536521e97eaf8309fe37ed34",
+        "pistas": [
+            {
+                "nombre": "Intoxicarme",
+                "duracion": 181
+            },
+            {
+                "nombre": "Pensamientos",
+                "duracion": 253
+            },
+            {
+                "nombre": "Kamikaze",
+                "duracion": 141
+            },
+            {
+                "nombre": "Ganas de Verte",
+                "duracion": 183
+            },
+            {
+                "nombre": "Jinetes Cromados",
+                "duracion": 183
+            },
+            {
+                "nombre": "Cuchillos Guantanamera",
+                "duracion": 252
+            },
+            {
+                "nombre": "Campos Elíseos",
+                "duracion": 276
+            },
+            {
+                "nombre": "Mamba Negra",
+                "duracion": 204
+            },
+            {
+                "nombre": "Motor Enfermo (Frankenstein)",
+                "duracion": 279
+            }, 
+            {
+                "nombre": "Al Parecer Todo Ha Sido una Trampa",
+                "duracion": 276
+            },
+            {
+                "nombre": "Volver a Casa",
+                "duracion": 183
+            },
+            {
+                "nombre": "Perdido",
+                "duracion": 247
+            },
+            {
+                "nombre": "Como un Diamante",
+                "duracion": 182
+            },
+            {
+                "nombre": "Mila, Saturno y el Río",
+                "duracion": 252
+            },
+            {
+                "nombre": "Über Puber",
+                "duracion": 179
+            },
+            {
+                "nombre": "Así de Fácil",
+                "duracion": 227
+            }
+        ]
+    },
+    {
+        "nombre": "folklore",
+        "artista": "Taylor Swift",
+        "id": 111,
+        "portada": "https://i.scdn.co/image/ab67616d0000b27395f754318336a07e85ec59bc",
+        "pistas": [
+            {
+                "nombre": "the 1",
+                "duracion": 210
+            },
+            {
+                "nombre": "cardigan",
+                "duracion": 239
+            },
+            {
+                "nombre": "the last great american dynasty",
+                "duracion": 231
+            },
+            {
+                "nombre": "exile (feat. Bon Iver",
+                "duracion": 285
+            },
+            {
+                "nombre": "my tears ricochet",
+                "duracion": 255
+            },
+            {
+                "nombre": "mirrorball",
+                "duracion": 208
+            },
+            {
+                "nombre": "seven",
+                "duracion": 208
+            },
+            {
+                "nombre": "august",
+                "duracion": 261
+            },
+            {
+                "nombre": "this is me trying",
+                "duracion": 195
+            },
+            {
+                "nombre": "illicit affairs",
+                "duracion": 190
+            },
+            {
+                "nombre": "invisible string",
+                "duracion": 252
+            },
+            {
+                "nombre": "mad woman",
+                "duracion": 237
+            },
+            {
+                "nombre": "epiphany",
+                "duracion": 289
+            },
+            {
+                "nombre": "betty",
+                "duracion": 294
+            },
+            {
+                "nombre": "peace",
+                "duracion": 234
+            },
+            {
+                "nombre": "hoax",
+                "duracion": 211
+            }
+        ]
+    }
+]

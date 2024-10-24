@@ -3,39 +3,40 @@
     <head>
         <meta charset="utf-8" />
         <!-- Reemplazar por los datos que correspondan -->
-        <title>Programación I | Parcial 1 | APELLIDO, NOMBRE | APELLIDO, NOMBRE</title>
+        <title>Programación I | Parcial 1 | CANÉ, IAN</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no" />
         <link rel="shortcut icon" href="favicon.ico" />
         <link rel="stylesheet" href="styles/styles.css" />
     </head>
-    <body>
-        <header>
-            <!-- Reemplazar por los datos que correspondan -->
-            <h1>Programación I | Parcial 1 | APELLIDO, NOMBRE | APELLDIO, NOMBRE</h1>
-        </header>
-        <main>
-            <h2>Mis discos</h2>
-            <button onclick="cargar();">Cargar nuevo disco</button>
-            <button onclick="mostrar();">Mostrar discos</button>
-            <div id="discos">
-                <!--
-                    Aca podrian mostrar los discos
-                -->
-            </div>
-            <script src="scripts/index.js"></script>
-        </main>
-        <footer>
-            <ul>
-                <li>Profesor Fabrizio Carlassara</li>
-                <li>
-                    <a href="mailto:fabrizio.carlassara@davinci.edu.ar?subject=P1%20-%20Consulta%20-%20DW2[M|T|N][A|B]%20-%20Apellido,%20Nombre" target="_blank">fabrizio.carlassara@davinci.edu.ar</a>
-                </li>
-                <li>Programación 1</li>
-                <li>
-                    <!-- Reemplazar por el link del repositorio de GitHub -->
-                    <a href="#">URL del repo de GitHub</a>
-                </li>
-            </ul>
-        </footer>
-    </body>
+<body>
+    <header class="discosh">
+        <!-- Reemplazar por los datos que correspondan -->
+        <h1>Programación I | Parcial 1 | CANÉ, IAN</h1>
+    </header>
+    <main>
+        <h2>Mis Discos</h2>
+        <div class="buttons">
+            <button class="btn-discos" onclick="cargar()">Cargar nuevo disco</button>
+            <button class="btn-discos" onclick="mostrar()">Mostrar discos</button>
+        </div>
+
+        <div id="discos">
+
+        </div>
+        <script src="scripts/index.js"></script>
+        <script src="scripts/validaciones.js"></script>
+    </main>
+    <footer class="discosh">
+        <ul>
+            <li>Profesor Fabrizio Carlassara</li>
+            <li>
+                <a href="mailto:fabrizio.carlassara@davinci.edu.ar?subject=P1%20-%20Consulta%20-%20DW2[M|T|N][A|B]%20-%20Apellido,%20Nombre" target="_blank">fabrizio.carlassara@davinci.edu.ar</a>
+            </li>
+            <li>Programación 1</li>
+            <li>
+                <a href="#">URL del repo de GitHub</a>
+            </li>
+        </ul>
+    </footer>
+</body>
 </html>

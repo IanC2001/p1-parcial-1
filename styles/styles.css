@@ -1,259 +1,129 @@
-/**
- * Versión 1.0.0
- */
-@charset "utf-8";
-
-/**
- * Fonts
- */
-@import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap');
-
-/**
- * Mobile
- */
-
-/** General */
-html {
-    box-sizing: border-box;
-}
-
-*, *:before, *:after {
-    box-sizing: inherit;
-}
-
-* {
-    margin: 0;
+*{
     padding: 0;
-    font-size: 10px;
-    line-height: 1;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
-}
+    margin: 0;
+    box-sizing: border-box;
+    font-family:Helvetica, sans-serif;
 
-/** Body */
-body {
-    background-color: #2977a4;
-    color: #D0E0E3;
 }
-
-/** Header */
-header {
+.buttons{
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: center;
-    padding: 2em;
+    margin-top: 50px;
+
 }
 
-/** Encabezados */
-h1,
-h2 {
-    font-family: 'Montserrat';
-    font-size: 3.6em;
-    line-height: 1.5;
-    font-weight: 700;
-    text-align: center;
-}
-
-h2 {
-    font-size: 3em;
-    color: #2977a4;
-}
-
-/** Main */
-main {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    padding: 4em 2em;
-    background-color: #FFF;
-}
-
-main p {
-    font-size: 2.4em;
-    line-height: 1.5;
-    text-align: left;
-    color: #2977a4;
-}
-
-main p strong, 
-main p em {
-    font-size: 1em;
-}
-
-main p strong {
-    font-weight: 700;
-}
-
-main p em {
-    font-style: italic;
-}
-
-main ul {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    align-items: flex-start;
-    width: 100%;
-}
-
-main ul li {
-    margin-left: 2em;
-    font-size: 2.4em;
-    line-height: 1.5;
-    text-align: left;
-    color: #1A4A5E;
-}
-
-main ul li strong,
-main ul li em {
-    font-size: 1em;
-}
-
-main ul li strong {
-    font-weight: 700;
-}
-
-main ul li em {
-    font-style: italic;
-}
-
-main button {
-    margin: .5em 0;
+.btn-discos{
+    margin: 10px;
+    padding: 15px;
     border: none;
-    border-radius: .5em;
-    padding: .25em .5em;
-    background: #2977a4;
+    background-color:#0f74e195;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+    font-weight: normal;
+    font-size: 18px;
     cursor: pointer;
-    font-size: 2.4em;
-    line-height: 1.5;
-    text-align: center;
-    color: #D0E0E3;
+    color: black;
+    border-radius: 13px;
 }
 
-main div.galeria {
+#discos{
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    margin: 1em 0;
-    width: 100%;
-    padding: 1em;
-    background: rgba(19,79,92,.5);
 }
 
-main div.galeria > img {
-    max-width: 90%;
-    margin: 1em 5%;
-}
-
-main div.galeria > span {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 5em;
-    height: 5em;
-}
-
-main div.galeria div {
-    display: flex;
-    flex-direction: column;
-    align-self: center;
-    width: 90%;
-    padding: 1em;
-}
-
-main div.galeria div img {
-    width: 100%;
-}
-
-main div.galeria div h3 {
-    padding: .5em;
-    font-size: 3.2em;
-    text-align: center;
-    color: #134F5C;
-}
-
-main div.galeria div p {
-    padding: 1em;
-    font-size: 1.6em;
+.discosh{
+    padding: 40px 40px;
+    margin: 0;
+    font-size: 28px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+    background-color: #0f74e195;
     text-align: center;
 }
 
-main hr {
-    margin: 1em 0%;
-    width: 100%;
-    height: .1em;
-}
-
-/** Footer */
-footer {
+.album-card {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    width: 100%;
-    padding: 2em;
-    
+    background-color: #f4f4f9;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+    margin: 20px;
+    transition: transform 0.3s ease;
 }
 
-footer ul {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+.album-card:hover {
+    transform: scale(1.05);
+}
+
+.album-cover {
     width: 100%;
+    height: auto;
+}
+
+.album-info {
+    padding: 15px;
+    text-align: center;
+}
+
+.album-info h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.artist-name, .album-id, .track-list-title {
+    font-size: 1rem;
+    color: #777;
+    margin: 5px 0;
+}
+
+.track-list {
     list-style: none;
+    padding: 0;
 }
 
-footer ul li {
-    font-family: 'Montserrat';
-    font-size: 1.4em;
-    line-height: 1.5;
+.track-item {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9rem;
+    color: #555;
+    margin: 5px 5px;
+}
+
+.track-duration {
+    color: #888;
+}
+
+.highlight {
+    font-weight: bold;
+    color: #ff6f61;
+}
+
+.track-item:hover {
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+
+
+.destacar {
+    color: red; 
+    font-weight: bold; 
+    padding: 2px;
+    border-radius: 3px; 
+}
+
+h2,h3,p{
+line-height: 2;
+}
+
+h2{
     text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 32px;
 }
 
-footer ul li a {
-    font-family: 'Montserrat';
-    font-size: 1em;
-    text-decoration: none;
-    color: #D0E0E3;
-}
-
-footer ul li a:hover {
-    color: #a2c4c9;
-}
-
-/** Overs */
-main button:hover {
-    opacity: .8;
-}
-
-/**
- * Web
- */
-@media screen and (min-width: 960px) {
-
-    /** Main */
-    main div.galeria {
-        flex-direction: row;
-    }
-
-    main div.galeria > img {
-        max-width: 24%;
-        margin: 1em .5%;
-    }
-
-    main div.galeria div {
-        align-self: flex-start;
-        width: 30%;
-    }
-
-    /** Footer */
-    footer ul {
-        flex-direction: row;
-    }
-
+.discosh > ul, li{
+    list-style: none;
 }
